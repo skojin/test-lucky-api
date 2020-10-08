@@ -14,7 +14,7 @@ Lucky::Server.configure do |settings|
     # To add additional extensions do something like this:
     # settings.gzip_content_types << "content/type"
   else
-    settings.secret_key_base = "AiJvyt9nSv5qlZGjRjp5Q19+28hkV19FveQjGHGmW2M="
+    settings.secret_key_base = "009EBRhKklpjXl3GQ/MNd58SxzjKc5gr7clTH71FLbs="
     # Change host/port in config/watch.yml
     # Alternatively, you can set the DEV_PORT env to set the port for local development
     settings.host = Lucky::ServerSettings.host

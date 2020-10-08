@@ -1,12 +1,12 @@
-name: test_project_api
+name: test_project_web
 version: 0.1.0
 
 authors:
   - your-name-here <your-email-here>
 
 targets:
-  test_project_api:
-    main: src/test_project_api.cr
+  test_project_web:
+    main: src/test_project_web.cr
 
 crystal: 0.35.1
 
@@ -22,6 +22,9 @@ dependencies:
     version: ~> 0.1.2
   dotenv:
     github: gdotdesign/cr-dotenv
+    version: ~> 0.7.0
+  lucky_flow:
+    github: luckyframework/lucky_flow
     version: ~> 0.7.0
   jwt:
     github: crystal-community/jwt

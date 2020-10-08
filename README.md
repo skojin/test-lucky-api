@@ -1,4 +1,4 @@
-# test_project_api
+# test_project_web
 
 This is a project written using [Lucky](https://luckyframework.org). Enjoy!
 

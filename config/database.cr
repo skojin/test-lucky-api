@@ -1,4 +1,4 @@
-database_name = "lucky_bug_honeypot_#{Lucky::Env.name}"
+database_name = "test_project_web_#{Lucky::Env.name}"
 
 AppDatabase.configure do |settings|
   if Lucky::Env.production?
